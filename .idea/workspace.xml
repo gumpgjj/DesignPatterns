@@ -248,22 +248,29 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c4cf8cef-6c5b-41d9-b039-b975613787ec" name="Default" comment="" />
       <created>1397702274433</created>
       <updated>1397702274433</updated>
-      <workItem from="1397702277815" duration="584000" />
+      <workItem from="1397702277815" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1397702630384</created>
       <updated>1397702630384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ingnore file">
+      <created>1397702895716</created>
+      <updated>1397702895716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584000" />
+    <option name="totallyTimeSpent" value="680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -313,7 +320,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="add ingnore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ingnore file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
