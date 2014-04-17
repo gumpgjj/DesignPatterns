@@ -17,8 +17,9 @@ public class SenderFactoryTest {
         for (int i = 0; i < 20; i++) {
             System.out.print(i);
             Sender sender = null;
-            Random random = new Random(100);
-            if (random.nextInt() % 2 == 0) {
+            Random random = new Random();
+            int randomInt = random.nextInt();
+            if (randomInt % 2 == 0) {
                 sender = senderFactory.produce("mail");
             } else {
                 sender = senderFactory.produce("sms");
