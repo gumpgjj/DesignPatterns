@@ -2,7 +2,7 @@ package com.megamind.creational;
 
 import com.megamind.featuers.MailSender;
 import com.megamind.featuers.SmsSender;
-import com.megamind.iterface.Sender;
+import com.megamind.interfaces.Sender;
 
 /**
  * Created by gaojj

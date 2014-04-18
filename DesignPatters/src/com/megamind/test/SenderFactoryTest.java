@@ -1,7 +1,7 @@
 package com.megamind.test;
 
 import com.megamind.creational.SenderFactory;
-import com.megamind.iterface.Sender;
+import com.megamind.interfaces.Sender;
 
 import java.util.Random;
 

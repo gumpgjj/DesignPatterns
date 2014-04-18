@@ -1,4 +1,4 @@
-package com.megamind.iterface;
+package com.megamind.interfaces;
 
 /**
  * Created by gaojj
