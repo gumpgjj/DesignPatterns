@@ -1,4 +1,4 @@
-package com.megamind.creational;
+package com.megamind.creational.factory.example;
 
 import com.megamind.ben.Sample;
 import com.megamind.ben.Sample2;
@@ -6,10 +6,10 @@ import com.megamind.ben.Sample2;
 /**
  * Created by gaojj
  * on 2014/4/17.
- * on  12:36:34
+ * on 12:38
  * Good Life One Day
  */
-public class SimpleFactory extends Factory{
+public class BombFactory extends Factory {
     @Override
     public Sample createSample() {
         return null;

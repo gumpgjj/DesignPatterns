@@ -1,4 +1,4 @@
-package com.megamind.creational;
+package com.megamind.creational.factory.example;
 
 import com.megamind.ben.Authorization;
 

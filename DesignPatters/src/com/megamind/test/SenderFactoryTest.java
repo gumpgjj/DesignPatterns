@@ -1,8 +1,11 @@
 package com.megamind.test;
 
-import com.megamind.creational.SenderFactory;
 import com.megamind.creational.SenderStaticFactory;
+import com.megamind.creational.factory.abstracts.SenderMailFactory;
+import com.megamind.creational.factory.simple.SenderFactory;
+import com.megamind.interfaces.Provider;
 import com.megamind.interfaces.Sender;
+import org.junit.Test;
 
 import java.util.Random;
 
@@ -32,5 +35,12 @@ public class SenderFactoryTest {
             sender.send();
             sender1.send();
         }
+    }
+
+    @Test
+    public  void abstractFactory(){
+        Provider provider  = new SenderMailFactory();
+        Sender sender  =provider.produce();
+        sender.send();
     }
 }

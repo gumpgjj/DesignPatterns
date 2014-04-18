@@ -7,4 +7,5 @@ package com.megamind.interfaces;
  * Good Life One Day
  */
 public interface Provider {
+    public Sender produce();
 }

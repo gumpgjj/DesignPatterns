@@ -1,4 +1,4 @@
-package com.megamind.creational;
+package com.megamind.creational.factory.simple;
 
 import com.megamind.featuers.MailSender;
 import com.megamind.featuers.SmsSender;
