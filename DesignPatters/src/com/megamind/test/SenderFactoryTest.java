@@ -1,8 +1,11 @@
 package com.megamind.test;
 
-import com.megamind.creational.SenderFactory;
-import com.megamind.iterface.Sender;
-
+import com.megamind.creational.SenderStaticFactory;
+import com.megamind.creational.factory.simple.SenderFactory;
+import com.megamind.interfaces.Provider;
+import com.megamind.interfaces.Sender;
+import org.junit.Test;
+import com.megamind.creational.factory.abstracts.SenderMailFactory;
 import java.util.Random;
 
 /**
@@ -12,19 +15,34 @@ import java.util.Random;
  * Good Life One Day
  */
 public class SenderFactoryTest {
-    public static void main(String args[]) {
+    @Test
+    public void mainTest() {
+
         SenderFactory senderFactory = new SenderFactory();
+        SenderStaticFactory senderStaticFactory = new SenderStaticFactory();
         for (int i = 0; i < 20; i++) {
             System.out.print(i);
             Sender sender = null;
+            Sender sender1 = null;
             Random random = new Random();
             int randomInt = random.nextInt();
             if (randomInt % 2 == 0) {
                 sender = senderFactory.produce("mail");
+                sender1 = senderStaticFactory.produceSms();
             } else {
                 sender = senderFactory.produce("sms");
+                sender1 = senderStaticFactory.produceMail();
             }
             sender.send();
+            sender1.send();
         }
     }
+
+    @Test
+    public void testAbstractFactory() {
+        Provider provider = new SenderMailFactory();
+        Sender sender = provider.produce();
+        sender.send();
+    }
+
 }

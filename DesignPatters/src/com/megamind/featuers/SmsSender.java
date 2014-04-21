@@ -1,6 +1,6 @@
 package com.megamind.featuers;
 
-import com.megamind.iterface.Sender;
+import com.megamind.interfaces.Sender;
 
 /**
  * Created by gaojj
