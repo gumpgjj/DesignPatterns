@@ -1,132 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4cf8cef-6c5b-41d9-b039-b975613787ec" name="Default" comment="Merge branch 'develop'&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;&#9;.idea/workspace.xml&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/AbstractCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/template/AbstractCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/chain/AbstractHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/AbstractSubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/ActorManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/classes/Adapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/classes/AdapterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/objectes/AdapterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/Bridge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/BridgeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/build/Builder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/test/BuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/CPU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/iterator/Collection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/Computer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/FlyWeight/ConnectionPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/interpreter/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/state/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/decorator/Decorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/decorator/DecoratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/Disk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/interpreter/Expression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/chain/Handler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/ICalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/command/Invoker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/iterator/Iterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/Mediator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/memeto/Memento.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/Memory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/interpreter/Minus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/Minus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/Multiply.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/MyBridge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/iterator/MyCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/command/MyCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/chain/MyHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/iterator/MyIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/MyMediator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/MySubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/visitor/MySubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/visitor/MyVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/Observer1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/Observer2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/ObserverTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/Operate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/memeto/Original.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/PingPongTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/PlayA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/PlayB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/PlayerAImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/pp/PlayerBImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/interpreter/Plus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/Plus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/template/Plus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/prototype/Prototype.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/interfaces/Provider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/Proxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/ProxyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/train/RailWay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/command/Receiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/instance/SenderInstanceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/abstracts/SenderMailFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/abstracts/SenderSmsFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/static/SenderStaticFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/single/Singleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/single/SingletonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/classes/Source.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/decorator/Source.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/Source.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/interfaces/SourceSub1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/SourceSub1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/interfaces/SourceSub2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/SourceSub2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/interfaces/Sourceable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/bridge/Sourceable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/decorator/Sourceable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/Sourceable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/state/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/memeto/Storage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/strategy/StrategyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/pc/template/StrategyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/observer/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/visitor/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/classes/Targetable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/chain/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/command/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/cc/iterator/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/interpreter/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/visitor/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/memeto/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/status/state/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/train/Train.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/composite/Tree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/composite/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/facade/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/User1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/Mediator/User2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/behavioral/middle/visitor/Visitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/objectes/Wrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/interfaces/Wrapper2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/adapters/interfaces/WrapperTest.java" />
-      <change type="DELETED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\DemoFactory.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatters/DesignPatters.iml" afterPath="$PROJECT_DIR$/DesignPatters/DesignPatters.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatters/src/com/megamind/featuers/MailSender.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/featuers/MailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatters/src/com/megamind/test/SenderFactoryTest.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/test/SenderFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatters/src/com/megamind/featuers/SmsSender.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/featuers/SmsSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\BombFactory.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/example/BombFactory.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\Factory.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/example/Factory.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\ForumFactory.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/example/ForumFactory.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\ForumFactoryProxy.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/example/ForumFactoryProxy.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\SenderFactory.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/simple/SenderFactory.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\creational\SimpleFactory.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/creational/factory/simple/SimpleFactory.java" />
-      <change type="MOVED" beforePath="E:\DesignPatterns\DesignPatters\src\com\megamind\iterface\Sender.java" afterPath="$PROJECT_DIR$/DesignPatters/src/com/megamind/interfaces/Sender.java" />
-    </list>
+    <list default="true" id="c4cf8cef-6c5b-41d9-b039-b975613787ec" name="Default" comment="" />
     <list id="7fcbd2d5-b447-4fa9-8e39-7b873c930bfa" name="New changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesingerPattern.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Proxy.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/Proxy.java">
+      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26961">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -824,7 +705,7 @@
       <workItem from="1397807825530" duration="7226000" />
       <workItem from="1397963040555" duration="1872000" />
       <workItem from="1398041934750" duration="15047000" />
-      <workItem from="1398060161718" duration="508000" />
+      <workItem from="1398060161718" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1397702630384</created>
@@ -910,11 +791,19 @@
       <created>1398058899342</created>
       <updated>1398058899342</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Merge branch 'develop'&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1398060689875</created>
+      <updated>1398060689875</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Merge branch 'develop'&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1398060708685</created>
+      <updated>1398060708685</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39780000" />
+    <option name="totallyTimeSpent" value="39858000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -938,10 +827,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.70422536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70422536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43192488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -949,7 +838,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.70422536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70422536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1407,14 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29222">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatters/src/com/megamind/structural/proxy/ProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
@@ -1427,6 +1308,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
           <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29222">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
