@@ -1,4 +1,4 @@
-package com.megamind.structural.adapters.proxy;
+package com.megamind.structural.proxy;
 
 /**
  * Created by megamind
